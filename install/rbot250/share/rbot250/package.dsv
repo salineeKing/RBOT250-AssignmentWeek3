@@ -1,0 +1,11 @@
+source;share/rbot250/hook/cmake_prefix_path.ps1
+source;share/rbot250/hook/cmake_prefix_path.dsv
+source;share/rbot250/hook/cmake_prefix_path.sh
+source;share/rbot250/hook/pythonpath.ps1
+source;share/rbot250/hook/pythonpath.dsv
+source;share/rbot250/hook/pythonpath.sh
+source;share/rbot250/local_setup.bash
+source;share/rbot250/local_setup.dsv
+source;share/rbot250/local_setup.ps1
+source;share/rbot250/local_setup.sh
+source;share/rbot250/local_setup.zsh

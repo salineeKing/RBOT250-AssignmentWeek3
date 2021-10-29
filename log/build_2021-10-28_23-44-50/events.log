@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000140] (rbot250) JobQueued: {'identifier': 'rbot250', 'dependencies': OrderedDict()}
+[0.000165] (rbot250) JobStarted: {'identifier': 'rbot250'}
+[0.006256] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'cmake'}
+[0.007751] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'build'}
+[0.008204] (rbot250) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/salinee/salinee_ws/build/rbot250', '--', '-j1', '-l1'], 'cwd': '/home/salinee/salinee_ws/build/rbot250', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'salinee'), ('SSH_AGENT_PID', '10014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/salinee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '9779'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04734abbda9c8f3fc1011de56172061b'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/salinee/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'salinee'), ('JOURNAL_STREAM', '8:34971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'salinee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/salinee-VirtualBox:@/tmp/.ICE-unix/10062,unix/salinee-VirtualBox:/tmp/.ICE-unix/10062'), ('INVOCATION_ID', '9a5c12d0071c420893f8c610d9c5d331'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4456d702_5434_4d92_bb74_6df4b8a03048'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.453'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/salinee/salinee_ws/build/rbot250'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04734abbda9c8f3fc1011de56172061b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.084092] (rbot250) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_rbot250\n'}
+[0.095642] (-) TimerEvent: {}
+[0.204210] (-) TimerEvent: {}
+[0.285631] (rbot250) StdoutLine: {'line': b'running egg_info\n'}
+[0.286277] (rbot250) StdoutLine: {'line': b'writing rbot250.egg-info/PKG-INFO\n'}
+[0.287669] (rbot250) StdoutLine: {'line': b'writing dependency_links to rbot250.egg-info/dependency_links.txt\n'}
+[0.288304] (rbot250) StdoutLine: {'line': b'writing top-level names to rbot250.egg-info/top_level.txt\n'}
+[0.311218] (-) TimerEvent: {}
+[0.313157] (rbot250) StdoutLine: {'line': b"reading manifest file 'rbot250.egg-info/SOURCES.txt'\n"}
+[0.313682] (rbot250) StdoutLine: {'line': b"writing manifest file 'rbot250.egg-info/SOURCES.txt'\n"}
+[0.333897] (rbot250) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_rbot250_egg\n'}
+[0.345028] (rbot250) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_node\x1b[0m\n'}
+[0.414146] (-) TimerEvent: {}
+[0.416617] (rbot250) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[0.515488] (-) TimerEvent: {}
+[0.623201] (-) TimerEvent: {}
+[0.732497] (-) TimerEvent: {}
+[0.838725] (-) TimerEvent: {}
+[0.946035] (-) TimerEvent: {}
+[1.053312] (-) TimerEvent: {}
+[1.160093] (-) TimerEvent: {}
+[1.267416] (-) TimerEvent: {}
+[1.375150] (-) TimerEvent: {}
+[1.475796] (-) TimerEvent: {}
+[1.579276] (-) TimerEvent: {}
+[1.687213] (-) TimerEvent: {}
+[1.795229] (-) TimerEvent: {}
+[1.902026] (-) TimerEvent: {}
+[2.008465] (-) TimerEvent: {}
+[2.115820] (-) TimerEvent: {}
+[2.223442] (-) TimerEvent: {}
+[2.332699] (-) TimerEvent: {}
+[2.351651] (rbot250) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.351848] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.352283] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.352370] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.352451] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.352532] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.352612] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.352689] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.352771] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.352866] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.352952] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7\x1b[m\x1b[K:\n'}
+[2.353038] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.353135] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:280:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::x\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.353223] (rbot250) StderrLine: {'line': b'   51 | \'%s\' \'%s\' \'%s\' \'%s\']  \\n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K(), message.transform.translation.y.c_str(), message.transform.translation.z.c_str());\n'}
+[2.353310] (rbot250) StderrLine: {'line': b'      |                                                                                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.353384] (rbot250) StderrLine: {'line': b'\n'}
+[2.353509] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:321:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::y\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.353599] (rbot250) StderrLine: {'line': b'   51 | .frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x.c_str(), message.transform.translation.y.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K(), message.transform.translation.z.c_str());\n'}
+[2.353679] (rbot250) StderrLine: {'line': b'      |                                                                                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.353750] (rbot250) StderrLine: {'line': b'\n'}
+[2.353882] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:362:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::z\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.353981] (rbot250) StderrLine: {'line': b'   51 | _frame_id.c_str(), message.transform.translation.x.c_str(), message.transform.translation.y.c_str(), message.transform.translation.z.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[2.354069] (rbot250) StderrLine: {'line': b'      |                                                                                                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.354143] (rbot250) StderrLine: {'line': b'\n'}
+[2.438119] (-) TimerEvent: {}
+[2.546056] (-) TimerEvent: {}
+[2.653887] (-) TimerEvent: {}
+[2.760707] (-) TimerEvent: {}
+[2.867763] (-) TimerEvent: {}
+[2.967397] (rbot250) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o] Error 1\n'}
+[2.970276] (rbot250) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[2.970741] (-) TimerEvent: {}
+[2.971055] (rbot250) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.971148] (rbot250) CommandEnded: {'returncode': 2}
+[3.013445] (rbot250) JobEnded: {'identifier': 'rbot250', 'rc': 2}
+[3.015014] (-) EventReactorShutdown: {}

@@ -1,0 +1,111 @@
+[  0%] Built target ament_cmake_python_symlink_rbot250
+running egg_info
+writing rbot250.egg-info/PKG-INFO
+writing dependency_links to rbot250.egg-info/dependency_links.txt
+writing top-level names to rbot250.egg-info/top_level.txt
+reading manifest file 'rbot250.egg-info/SOURCES.txt'
+writing manifest file 'rbot250.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_rbot250_egg
+[35m[1mScanning dependencies of target cpp_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7[m[K:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+   51 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id: '%s' \n Vector3 translation: ['%d' '%d' '%d']  \n"[m[K, message.header.frame_id.c_str(), message.child_frame_id.c_str(), [32m[Kmessage.transform.translation.x[m[K, message.transform.translation.y, message.transform.translation.z);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                                                                                                                                                                                 [32m[K|[m[K
+      |                                                                                                                                                                                                                                                                                 [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type {aka double}[m[K
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:120:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   51 |     RCLCPP_INFO(this->get_logger(), "Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_fra[01;36m[Kme[m[K_id: '%s' \n Vector3 translation: ['%d' '%d' '%d']  \n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, message.transform.translation.y, message.transform.translation.z);
+      |                                                                                                                       [01;36m[K~^[m[K
+      |                                                                                                                        [01;36m[K|[m[K
+      |                                                                                                                        [01;36m[Kint[m[K
+      |                                                                                                                       [32m[Kmf[m[K
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7[m[K:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+   51 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id: '%s' \n Vector3 translation: ['%d' '%d' '%d']  \n"[m[K, message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, [32m[Kmessage.transform.translation.y[m[K, message.transform.translation.z);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                                                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                                                                                                                                                                                                                  [32m[K|[m[K
+      |                                                                                                                                                                                                                                                                                                                  [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type {aka double}[m[K
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:125:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   51 |     RCLCPP_INFO(this->get_logger(), "Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id[01;36m[K: [m[K'%s' \n Vector3 translation: ['%d' '%d' '%d']  \n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, message.transform.translation.y, message.transform.translation.z);
+      |                                                                                                                            [01;36m[K~^[m[K
+      |                                                                                                                             [01;36m[K|[m[K
+      |                                                                                                                             [01;36m[Kint[m[K
+      |                                                                                                                            [32m[K:f[m[K
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7[m[K:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+   51 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id: '%s' \n Vector3 translation: ['%d' '%d' '%d']  \n"[m[K, message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, message.transform.translation.y, [32m[Kmessage.transform.translation.z[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                                                                                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                                                                                                                                                                                                                                                   [32m[K|[m[K
+      |                                                                                                                                                                                                                                                                                                                                                   [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type {aka double}[m[K
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:130:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   51 | CLCPP_INFO(this->get_logger(), "Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id: '%s[01;36m[K' [m[K\n Vector3 translation: ['%d' '%d' '%d']  \n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, message.transform.translation.y, message.transform.translation.z);
+      |                                                                                                                            [01;36m[K~^[m[K
+      |                                                                                                                             [01;36m[K|[m[K
+      |                                                                                                                             [01;36m[Kint[m[K
+      |                                                                                                                            [32m[K'f[m[K
+[100%] [32m[1mLinking CXX executable cpp_node[0m
+[100%] Built target cpp_node
+-- Install configuration: ""
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250//launch
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250//launch/rbot250.launch.py
+-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/rbot250/cpp_node
+-- Set runtime path of "/home/salinee/salinee_ws/install/rbot250/lib/rbot250/cpp_node" to ""
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/pythonpath.sh
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/pythonpath.dsv
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info
+-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/PKG-INFO
+-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/top_level.txt
+-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/SOURCES.txt
+-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/dependency_links.txt
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250/module_to_import.py
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250/__init__.py
+Listing '/home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250'...
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/rbot250/py_node.py
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/package_run_dependencies/rbot250
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/parent_prefix_path/rbot250
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.sh
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/path.sh
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/path.dsv
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.bash
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.sh
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.zsh
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.dsv
+-- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/package.dsv
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/packages/rbot250
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/cmake/rbot250Config.cmake
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/cmake/rbot250Config-version.cmake
+-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/package.xml

@@ -1,0 +1,2 @@
+Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1

@@ -1,0 +1,7 @@
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessagetransform[m[K’ was not declared in this scope
+   42 |     [01;31m[Kmessagetransform[m[K.translation.y = 3.142;
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,20 @@
+[0.007s] Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+[0.080s] [  0%] Built target ament_cmake_python_symlink_rbot250
+[0.279s] running egg_info
+[0.282s] writing rbot250.egg-info/PKG-INFO
+[0.283s] writing dependency_links to rbot250.egg-info/dependency_links.txt
+[0.283s] writing top-level names to rbot250.egg-info/top_level.txt
+[0.308s] reading manifest file 'rbot250.egg-info/SOURCES.txt'
+[0.309s] writing manifest file 'rbot250.egg-info/SOURCES.txt'
+[0.328s] [  0%] Built target ament_cmake_python_build_rbot250_egg
+[0.338s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.362s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[2.284s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.284s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:41:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[2.284s]    41 |  [01;31m[Kt[m[K.transform.translation.x = 1.57;
+[2.284s]       |  [01;31m[K^[m[K
+[2.284s]       |  [32m[Ktm[m[K
+[2.906s] make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o] Error 1
+[2.909s] make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_node.dir/all] Error 2
+[2.909s] make: *** [Makefile:141: all] Error 2
+[2.909s] Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1

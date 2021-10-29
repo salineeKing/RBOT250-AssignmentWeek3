@@ -1,0 +1,15 @@
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:6[m[K:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:37:37:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+   37 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%%'"[m[K, message);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,27 @@
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7[m[K:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:280:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   51 | '%s' '%s' '%s' '%s']  \n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x.[01;31m[Kc_str[m[K(), message.transform.translation.y.c_str(), message.transform.translation.z.c_str());
+      |                                                                                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:321:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   51 | .frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x.c_str(), message.transform.translation.y.[01;31m[Kc_str[m[K(), message.transform.translation.z.c_str());
+      |                                                                                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:362:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::z[m[K’, which is of non-class type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   51 | _frame_id.c_str(), message.transform.translation.x.c_str(), message.transform.translation.y.c_str(), message.transform.translation.z.[01;31m[Kc_str[m[K());
+      |                                                                                                                                      [01;31m[K^~~~~[m[K
+
+make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,48 @@
+[0.007s] Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+[0.086s] [  0%] Built target ament_cmake_python_symlink_rbot250
+[0.291s] running egg_info
+[0.292s] writing rbot250.egg-info/PKG-INFO
+[0.293s] writing dependency_links to rbot250.egg-info/dependency_links.txt
+[0.293s] writing top-level names to rbot250.egg-info/top_level.txt
+[0.318s] reading manifest file 'rbot250.egg-info/SOURCES.txt'
+[0.318s] writing manifest file 'rbot250.egg-info/SOURCES.txt'
+[0.339s] [  0%] Built target ament_cmake_python_build_rbot250_egg
+[0.351s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.373s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[8.802s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[9.152s] [100%] Built target cpp_node
+[9.163s] Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+[9.218s] Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/salinee/salinee_ws/build/rbot250
+[9.227s] -- Install configuration: ""
+[9.228s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250//launch
+[9.228s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250//launch/turtle_tf2_demo.launch.py
+[9.228s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/rbot250/cpp_node
+[9.230s] -- Set runtime path of "/home/salinee/salinee_ws/install/rbot250/lib/rbot250/cpp_node" to ""
+[9.230s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/pythonpath.sh
+[9.230s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/pythonpath.dsv
+[9.231s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info
+[9.231s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/PKG-INFO
+[9.231s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/top_level.txt
+[9.231s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/SOURCES.txt
+[9.231s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/dependency_links.txt
+[9.231s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250
+[9.232s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250/module_to_import.py
+[9.232s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250/__init__.py
+[9.259s] Listing '/home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250'...
+[9.261s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/rbot250/py_node.py
+[9.261s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/package_run_dependencies/rbot250
+[9.262s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/parent_prefix_path/rbot250
+[9.262s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.sh
+[9.262s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.dsv
+[9.262s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/path.sh
+[9.262s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/path.dsv
+[9.262s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.bash
+[9.263s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.sh
+[9.263s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.zsh
+[9.263s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.dsv
+[9.263s] -- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/package.dsv
+[9.263s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/packages/rbot250
+[9.263s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/cmake/rbot250Config.cmake
+[9.263s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/cmake/rbot250Config-version.cmake
+[9.275s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/package.xml
+[9.284s] Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/salinee/salinee_ws/build/rbot250

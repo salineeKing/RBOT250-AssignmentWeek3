@@ -1,0 +1,10 @@
+[  0%] Built target ament_cmake_python_symlink_rbot250
+running egg_info
+writing rbot250.egg-info/PKG-INFO
+writing dependency_links to rbot250.egg-info/dependency_links.txt
+writing top-level names to rbot250.egg-info/top_level.txt
+reading manifest file 'rbot250.egg-info/SOURCES.txt'
+writing manifest file 'rbot250.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_rbot250_egg
+[35m[1mScanning dependencies of target cpp_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m

@@ -1,0 +1,7 @@
+setup.py
+rbot250/__init__.py
+rbot250/module_to_import.py
+rbot250.egg-info/PKG-INFO
+rbot250.egg-info/SOURCES.txt
+rbot250.egg-info/dependency_links.txt
+rbot250.egg-info/top_level.txt

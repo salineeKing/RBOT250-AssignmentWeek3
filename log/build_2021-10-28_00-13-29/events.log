@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (rbot250) JobQueued: {'identifier': 'rbot250', 'dependencies': OrderedDict()}
+[0.000174] (rbot250) JobStarted: {'identifier': 'rbot250'}
+[0.006220] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'cmake'}
+[0.006971] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'build'}
+[0.007431] (rbot250) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/salinee/salinee_ws/build/rbot250', '--', '-j1', '-l1'], 'cwd': '/home/salinee/salinee_ws/build/rbot250', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'salinee'), ('SSH_AGENT_PID', '10014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/salinee'), ('OLDPWD', '/home/salinee/salinee_ws/src/rbot250'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '9779'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04734abbda9c8f3fc1011de56172061b'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/salinee/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'salinee'), ('JOURNAL_STREAM', '8:34971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'salinee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/salinee-VirtualBox:@/tmp/.ICE-unix/10062,unix/salinee-VirtualBox:/tmp/.ICE-unix/10062'), ('INVOCATION_ID', '9a5c12d0071c420893f8c610d9c5d331'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d12a76e2_4a7b_43bd_ac6d_8d8221c21082'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.298'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/salinee/salinee_ws/build/rbot250'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04734abbda9c8f3fc1011de56172061b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.058850] (rbot250) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.075742] (rbot250) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.096676] (-) TimerEvent: {}
+[0.139586] (rbot250) StdoutLine: {'line': b'-- Found rclcpp: 13.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.170126] (rbot250) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.173014] (rbot250) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.5.0 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.201466] (rbot250) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.201547] (-) TimerEvent: {}
+[0.245448] (rbot250) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 5.0.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.249766] (rbot250) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.24.0 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.264463] (rbot250) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.301665] (-) TimerEvent: {}
+[0.388644] (rbot250) StdoutLine: {'line': b'-- Found rclpy: 3.0.1 (/opt/ros/rolling/share/rclpy/cmake)\n'}
+[0.402047] (-) TimerEvent: {}
+[0.408126] (rbot250) StdoutLine: {'line': b'-- Found tf2: 0.18.0 (/opt/ros/rolling/share/tf2/cmake)\n'}
+[0.476487] (rbot250) StdoutLine: {'line': b'-- Found tf2_ros: 0.18.0 (/opt/ros/rolling/share/tf2_ros/cmake)\n'}
+[0.504422] (-) TimerEvent: {}
+[0.612996] (-) TimerEvent: {}
+[0.720186] (-) TimerEvent: {}
+[0.821638] (-) TimerEvent: {}
+[0.923476] (-) TimerEvent: {}
+[0.948226] (rbot250) StdoutLine: {'line': b'-- Found turtlesim: 1.3.2 (/opt/ros/rolling/share/turtlesim/cmake)\n'}
+[1.017967] (rbot250) StdoutLine: {'line': b'-- Found sensor_msgs: 3.0.0 (/opt/ros/rolling/share/sensor_msgs/cmake)\n'}
+[1.031329] (-) TimerEvent: {}
+[1.080927] (rbot250) StdoutLine: {'line': b'-- Found trajectory_msgs: 3.0.0 (/opt/ros/rolling/share/trajectory_msgs/cmake)\n'}
+[1.139387] (-) TimerEvent: {}
+[1.186962] (rbot250) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.11.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[1.239779] (rbot250) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.239903] (-) TimerEvent: {}
+[1.240799] (rbot250) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.241165] (rbot250) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/salinee/salinee_ws/src/rbot250/include\n'}
+[1.241280] (rbot250) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.241925] (rbot250) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.242050] (rbot250) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.242456] (rbot250) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.242880] (rbot250) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.243274] (rbot250) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.243891] (rbot250) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.244014] (rbot250) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.244441] (rbot250) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.246661] (rbot250) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.261594] (rbot250) StdoutLine: {'line': b'-- Generating done\n'}
+[1.266124] (rbot250) StdoutLine: {'line': b'-- Build files have been written to: /home/salinee/salinee_ws/build/rbot250\n'}
+[1.304862] (rbot250) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_rbot250\n'}
+[1.343386] (-) TimerEvent: {}
+[1.450130] (-) TimerEvent: {}
+[1.487788] (rbot250) StdoutLine: {'line': b'running egg_info\n'}
+[1.488416] (rbot250) StdoutLine: {'line': b'writing rbot250.egg-info/PKG-INFO\n'}
+[1.489518] (rbot250) StdoutLine: {'line': b'writing dependency_links to rbot250.egg-info/dependency_links.txt\n'}
+[1.490132] (rbot250) StdoutLine: {'line': b'writing top-level names to rbot250.egg-info/top_level.txt\n'}
+[1.519344] (rbot250) StdoutLine: {'line': b"reading manifest file 'rbot250.egg-info/SOURCES.txt'\n"}
+[1.519909] (rbot250) StdoutLine: {'line': b"writing manifest file 'rbot250.egg-info/SOURCES.txt'\n"}
+[1.538376] (rbot250) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_rbot250_egg\n'}
+[1.549228] (rbot250) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_executable\x1b[0m\n'}
+[1.550470] (-) TimerEvent: {}
+[1.636832] (rbot250) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[1.653962] (-) TimerEvent: {}
+[1.761777] (-) TimerEvent: {}
+[1.869430] (-) TimerEvent: {}
+[1.976433] (-) TimerEvent: {}
+[2.076883] (-) TimerEvent: {}
+[2.181401] (-) TimerEvent: {}
+[2.287645] (-) TimerEvent: {}
+[2.395362] (-) TimerEvent: {}
+[2.503908] (-) TimerEvent: {}
+[2.611407] (-) TimerEvent: {}
+[2.717691] (-) TimerEvent: {}
+[2.825499] (-) TimerEvent: {}
+[2.932220] (-) TimerEvent: {}
+[3.039669] (-) TimerEvent: {}
+[3.147356] (-) TimerEvent: {}
+[3.255371] (-) TimerEvent: {}
+[3.363004] (-) TimerEvent: {}
+[3.470290] (-) TimerEvent: {}
+[3.577522] (-) TimerEvent: {}
+[3.684324] (-) TimerEvent: {}
+[3.791542] (-) TimerEvent: {}
+[3.899362] (-) TimerEvent: {}
+[4.007410] (-) TimerEvent: {}
+[4.114737] (-) TimerEvent: {}
+[4.221744] (-) TimerEvent: {}
+[4.329160] (-) TimerEvent: {}
+[4.436206] (-) TimerEvent: {}
+[4.539477] (-) TimerEvent: {}
+[4.640328] (-) TimerEvent: {}
+[4.748179] (-) TimerEvent: {}
+[4.848573] (-) TimerEvent: {}
+[4.856675] (rbot250) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_executable\x1b[0m\n'}
+[4.949190] (-) TimerEvent: {}
+[5.059336] (-) TimerEvent: {}
+[5.082728] (rbot250) StdoutLine: {'line': b'[100%] Built target cpp_executable\n'}
+[5.094810] (rbot250) CommandEnded: {'returncode': 0}
+[5.120013] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'install'}
+[5.129053] (rbot250) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/salinee/salinee_ws/build/rbot250'], 'cwd': '/home/salinee/salinee_ws/build/rbot250', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'salinee'), ('SSH_AGENT_PID', '10014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/salinee'), ('OLDPWD', '/home/salinee/salinee_ws/src/rbot250'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '9779'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04734abbda9c8f3fc1011de56172061b'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/salinee/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'salinee'), ('JOURNAL_STREAM', '8:34971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'salinee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/salinee-VirtualBox:@/tmp/.ICE-unix/10062,unix/salinee-VirtualBox:/tmp/.ICE-unix/10062'), ('INVOCATION_ID', '9a5c12d0071c420893f8c610d9c5d331'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d12a76e2_4a7b_43bd_ac6d_8d8221c21082'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.298'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/salinee/salinee_ws/build/rbot250'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04734abbda9c8f3fc1011de56172061b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[5.138542] (rbot250) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.138919] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/rbot250/cpp_executable\n'}
+[5.139634] (rbot250) StdoutLine: {'line': b'-- Set runtime path of "/home/salinee/salinee_ws/install/rbot250/lib/rbot250/cpp_executable" to ""\n'}
+[5.139801] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/pythonpath.sh\n'}
+[5.139948] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/pythonpath.dsv\n'}
+[5.140161] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info\n'}
+[5.140299] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/PKG-INFO\n'}
+[5.140469] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/top_level.txt\n'}
+[5.140658] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/SOURCES.txt\n'}
+[5.140832] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/dependency_links.txt\n'}
+[5.141049] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250\n'}
+[5.141179] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250/module_to_import.py\n'}
+[5.141289] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250/__init__.py\n'}
+[5.162269] (rbot250) StdoutLine: {'line': b"Listing '/home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250'...\n"}
+[5.162355] (-) TimerEvent: {}
+[5.164741] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/rbot250/py_node.py\n'}
+[5.164940] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/package_run_dependencies/rbot250\n'}
+[5.165193] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/parent_prefix_path/rbot250\n'}
+[5.165356] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.sh\n'}
+[5.165502] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.dsv\n'}
+[5.165716] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/path.sh\n'}
+[5.165865] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/path.dsv\n'}
+[5.167426] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.bash\n'}
+[5.167585] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.sh\n'}
+[5.167732] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.zsh\n'}
+[5.167878] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.dsv\n'}
+[5.168098] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/package.dsv\n'}
+[5.168310] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/packages/rbot250\n'}
+[5.168460] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/cmake/rbot250Config.cmake\n'}
+[5.168570] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/cmake/rbot250Config-version.cmake\n'}
+[5.168709] (rbot250) StdoutLine: {'line': b'-- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/package.xml\n'}
+[5.175822] (rbot250) CommandEnded: {'returncode': 0}
+[5.224798] (rbot250) JobEnded: {'identifier': 'rbot250', 'rc': 0}
+[5.225870] (-) EventReactorShutdown: {}

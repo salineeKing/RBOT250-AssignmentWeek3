@@ -1,0 +1,143 @@
+[0.255s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rbot250']
+[0.255s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f85eb4504c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['rbot250'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=1, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f85eb4504c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f85eb450a00>)
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.259s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/salinee/salinee_ws'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rbot250) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rbot250' with type 'ros.ament_cmake' and name 'rbot250'
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'rbot250' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'rbot250' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/salinee/salinee_ws/build/rbot250', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/salinee/salinee_ws/install/rbot250', 'merge_install': False, 'path': '/home/salinee/salinee_ws/src/rbot250', 'symlink_install': False, 'test_result_base': None}
+[0.287s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/salinee/salinee_ws/src/rbot250' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/salinee/salinee_ws/src/rbot250'
+[0.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/rolling'
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+[4.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+[4.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/salinee/salinee_ws/build/rbot250
+[4.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rbot250)
+[4.355s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250' for CMake module files
+[4.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/salinee/salinee_ws/build/rbot250
+[4.356s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250' for CMake config files
+[4.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbot250', 'cmake_prefix_path')
+[4.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/cmake_prefix_path.ps1'
+[4.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/cmake_prefix_path.dsv'
+[4.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/cmake_prefix_path.sh'
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250/lib'
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250/bin'
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250/lib/pkgconfig/rbot250.pc'
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages'
+[4.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbot250', 'pythonpath')
+[4.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/pythonpath.ps1'
+[4.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/pythonpath.dsv'
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/pythonpath.sh'
+[4.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.ps1'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.dsv'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.sh'
+[4.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.bash'
+[4.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.zsh'
+[4.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/salinee/salinee_ws/install/rbot250/share/colcon-core/packages/rbot250)
+[4.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rbot250)
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250' for CMake module files
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250' for CMake config files
+[4.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbot250', 'cmake_prefix_path')
+[4.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/cmake_prefix_path.ps1'
+[4.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/cmake_prefix_path.dsv'
+[4.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/cmake_prefix_path.sh'
+[4.401s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250/lib'
+[4.401s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250/bin'
+[4.401s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250/lib/pkgconfig/rbot250.pc'
+[4.401s] Level 1:colcon.colcon_core.environment:checking '/home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages'
+[4.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbot250', 'pythonpath')
+[4.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/pythonpath.ps1'
+[4.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/pythonpath.dsv'
+[4.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/salinee/salinee_ws/install/rbot250/share/rbot250/hook/pythonpath.sh'
+[4.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.ps1'
+[4.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.dsv'
+[4.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.sh'
+[4.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.bash'
+[4.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/salinee/salinee_ws/install/rbot250/share/rbot250/package.zsh'
+[4.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/salinee/salinee_ws/install/rbot250/share/colcon-core/packages/rbot250)
+[4.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.408s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.412s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.429s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.429s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/salinee/salinee_ws/install/local_setup.ps1'
+[4.431s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/salinee/salinee_ws/install/_local_setup_util_ps1.py'
+[4.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/salinee/salinee_ws/install/setup.ps1'
+[4.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/salinee/salinee_ws/install/local_setup.sh'
+[4.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/salinee/salinee_ws/install/_local_setup_util_sh.py'
+[4.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/salinee/salinee_ws/install/setup.sh'
+[4.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/salinee/salinee_ws/install/local_setup.bash'
+[4.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/salinee/salinee_ws/install/setup.bash'
+[4.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/salinee/salinee_ws/install/local_setup.zsh'
+[4.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/salinee/salinee_ws/install/setup.zsh'

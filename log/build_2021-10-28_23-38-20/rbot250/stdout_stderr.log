@@ -1,0 +1,18 @@
+[  0%] Built target ament_cmake_python_symlink_rbot250
+running egg_info
+writing rbot250.egg-info/PKG-INFO
+writing dependency_links to rbot250.egg-info/dependency_links.txt
+writing top-level names to rbot250.egg-info/top_level.txt
+reading manifest file 'rbot250.egg-info/SOURCES.txt'
+writing manifest file 'rbot250.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_rbot250_egg
+[35m[1mScanning dependencies of target cpp_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:41:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   41 |  [01;31m[Kt[m[K.transform.translation.x = 1.57;
+      |  [01;31m[K^[m[K
+      |  [32m[Ktm[m[K
+make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

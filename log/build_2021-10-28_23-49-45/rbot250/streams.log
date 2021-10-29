@@ -1,0 +1,115 @@
+[0.007s] Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+[0.086s] [  0%] Built target ament_cmake_python_symlink_rbot250
+[0.298s] running egg_info
+[0.299s] writing rbot250.egg-info/PKG-INFO
+[0.301s] writing dependency_links to rbot250.egg-info/dependency_links.txt
+[0.301s] writing top-level names to rbot250.egg-info/top_level.txt
+[0.327s] reading manifest file 'rbot250.egg-info/SOURCES.txt'
+[0.328s] writing manifest file 'rbot250.egg-info/SOURCES.txt'
+[0.354s] [  0%] Built target ament_cmake_python_build_rbot250_egg
+[0.367s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.390s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[2.497s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+[2.497s]                  from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+[2.497s]                  from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+[2.497s]                  from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.497s]                  from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.497s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+[2.497s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+[2.497s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.497s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+[2.498s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+[2.498s]                  from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7[m[K:
+[2.498s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.498s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.498s]    51 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id: '%s' \n Vector3 translation: ['%d' '%d' '%d']  \n"[m[K, message.header.frame_id.c_str(), message.child_frame_id.c_str(), [32m[Kmessage.transform.translation.x[m[K, message.transform.translation.y, message.transform.translation.z);
+[2.498s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.498s]       |                                                                                                                                                                                                                                                                                 [32m[K|[m[K
+[2.498s]       |                                                                                                                                                                                                                                                                                 [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type {aka double}[m[K
+[2.498s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:120:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.498s]    51 |     RCLCPP_INFO(this->get_logger(), "Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_fra[01;36m[Kme[m[K_id: '%s' \n Vector3 translation: ['%d' '%d' '%d']  \n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, message.transform.translation.y, message.transform.translation.z);
+[2.498s]       |                                                                                                                       [01;36m[K~^[m[K
+[2.499s]       |                                                                                                                        [01;36m[K|[m[K
+[2.499s]       |                                                                                                                        [01;36m[Kint[m[K
+[2.499s]       |                                                                                                                       [32m[Kmf[m[K
+[2.499s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+[2.499s]                  from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+[2.499s]                  from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+[2.499s]                  from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.499s]                  from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.499s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+[2.499s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+[2.499s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.499s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+[2.500s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+[2.500s]                  from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7[m[K:
+[2.500s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.500s]    51 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id: '%s' \n Vector3 translation: ['%d' '%d' '%d']  \n"[m[K, message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, [32m[Kmessage.transform.translation.y[m[K, message.transform.translation.z);
+[2.500s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                                                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.500s]       |                                                                                                                                                                                                                                                                                                                  [32m[K|[m[K
+[2.500s]       |                                                                                                                                                                                                                                                                                                                  [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type {aka double}[m[K
+[2.500s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:125:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.500s]    51 |     RCLCPP_INFO(this->get_logger(), "Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id[01;36m[K: [m[K'%s' \n Vector3 translation: ['%d' '%d' '%d']  \n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, message.transform.translation.y, message.transform.translation.z);
+[2.500s]       |                                                                                                                            [01;36m[K~^[m[K
+[2.500s]       |                                                                                                                             [01;36m[K|[m[K
+[2.501s]       |                                                                                                                             [01;36m[Kint[m[K
+[2.501s]       |                                                                                                                            [32m[K:f[m[K
+[2.501s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+[2.501s]                  from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+[2.501s]                  from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+[2.501s]                  from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.501s]                  from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.501s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+[2.501s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+[2.501s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.502s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+[2.502s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+[2.502s]                  from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7[m[K:
+[2.502s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.502s]    51 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id: '%s' \n Vector3 translation: ['%d' '%d' '%d']  \n"[m[K, message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, message.transform.translation.y, [32m[Kmessage.transform.translation.z[m[K);
+[2.502s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                                                                                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.502s]       |                                                                                                                                                                                                                                                                                                                                                   [32m[K|[m[K
+[2.502s]       |                                                                                                                                                                                                                                                                                                                                                   [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type {aka double}[m[K
+[2.505s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:130:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.505s]    51 | CLCPP_INFO(this->get_logger(), "Publishing static TransformStamped msg: \n Header: \n frame_id: '%s' \n child_frame_id: '%s[01;36m[K' [m[K\n Vector3 translation: ['%d' '%d' '%d']  \n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x, message.transform.translation.y, message.transform.translation.z);
+[2.505s]       |                                                                                                                            [01;36m[K~^[m[K
+[2.505s]       |                                                                                                                             [01;36m[K|[m[K
+[2.505s]       |                                                                                                                             [01;36m[Kint[m[K
+[2.505s]       |                                                                                                                            [32m[K'f[m[K
+[4.088s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[4.247s] [100%] Built target cpp_node
+[4.258s] Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+[4.296s] Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/salinee/salinee_ws/build/rbot250
+[4.307s] -- Install configuration: ""
+[4.307s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250//launch
+[4.307s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250//launch/rbot250.launch.py
+[4.308s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/rbot250/cpp_node
+[4.308s] -- Set runtime path of "/home/salinee/salinee_ws/install/rbot250/lib/rbot250/cpp_node" to ""
+[4.309s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/pythonpath.sh
+[4.309s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/pythonpath.dsv
+[4.309s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info
+[4.309s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/PKG-INFO
+[4.309s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/top_level.txt
+[4.310s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/SOURCES.txt
+[4.310s] -- Installing: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages//rbot250.egg-info/dependency_links.txt
+[4.310s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250
+[4.310s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250/module_to_import.py
+[4.310s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250/__init__.py
+[4.333s] Listing '/home/salinee/salinee_ws/install/rbot250/lib/python3.8/site-packages/rbot250'...
+[4.335s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/lib/rbot250/py_node.py
+[4.336s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/package_run_dependencies/rbot250
+[4.336s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/parent_prefix_path/rbot250
+[4.336s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.sh
+[4.336s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.dsv
+[4.336s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/path.sh
+[4.336s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/environment/path.dsv
+[4.336s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.bash
+[4.337s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.sh
+[4.337s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.zsh
+[4.337s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/local_setup.dsv
+[4.337s] -- Installing: /home/salinee/salinee_ws/install/rbot250/share/rbot250/package.dsv
+[4.337s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/ament_index/resource_index/packages/rbot250
+[4.338s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/cmake/rbot250Config.cmake
+[4.338s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/cmake/rbot250Config-version.cmake
+[4.338s] -- Up-to-date: /home/salinee/salinee_ws/install/rbot250/share/rbot250/package.xml
+[4.345s] Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/salinee/salinee_ws/build/rbot250

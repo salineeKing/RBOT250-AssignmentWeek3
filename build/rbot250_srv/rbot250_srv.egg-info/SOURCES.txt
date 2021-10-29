@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rbot250_srv/rbot250_srv.egg-info/PKG-INFO
+../../build/rbot250_srv/rbot250_srv.egg-info/SOURCES.txt
+../../build/rbot250_srv/rbot250_srv.egg-info/dependency_links.txt
+../../build/rbot250_srv/rbot250_srv.egg-info/entry_points.txt
+../../build/rbot250_srv/rbot250_srv.egg-info/requires.txt
+../../build/rbot250_srv/rbot250_srv.egg-info/top_level.txt
+../../build/rbot250_srv/rbot250_srv.egg-info/zip-safe
+rbot250_srv/__init__.py
+rbot250_srv/client_member_function.py
+rbot250_srv/service_member_function.py
+resource/rbot250_srv
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

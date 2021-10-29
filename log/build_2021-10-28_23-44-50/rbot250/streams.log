@@ -1,0 +1,39 @@
+[0.008s] Invoking command in '/home/salinee/salinee_ws/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1
+[0.084s] [  0%] Built target ament_cmake_python_symlink_rbot250
+[0.286s] running egg_info
+[0.286s] writing rbot250.egg-info/PKG-INFO
+[0.288s] writing dependency_links to rbot250.egg-info/dependency_links.txt
+[0.288s] writing top-level names to rbot250.egg-info/top_level.txt
+[0.313s] reading manifest file 'rbot250.egg-info/SOURCES.txt'
+[0.314s] writing manifest file 'rbot250.egg-info/SOURCES.txt'
+[0.334s] [  0%] Built target ament_cmake_python_build_rbot250_egg
+[0.345s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.417s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[2.352s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+[2.352s]                  from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+[2.352s]                  from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+[2.352s]                  from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.352s]                  from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.352s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+[2.352s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+[2.353s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.353s]                  from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+[2.353s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+[2.353s]                  from [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:7[m[K:
+[2.353s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.353s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:280:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[2.353s]    51 | '%s' '%s' '%s' '%s']  \n", message.header.frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x.[01;31m[Kc_str[m[K(), message.transform.translation.y.c_str(), message.transform.translation.z.c_str());
+[2.353s]       |                                                                                                                             [01;31m[K^~~~~[m[K
+[2.353s] 
+[2.353s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:321:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[2.353s]    51 | .frame_id.c_str(), message.child_frame_id.c_str(), message.transform.translation.x.c_str(), message.transform.translation.y.[01;31m[Kc_str[m[K(), message.transform.translation.z.c_str());
+[2.354s]       |                                                                                                                             [01;31m[K^~~~~[m[K
+[2.354s] 
+[2.354s] [01m[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:51:362:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmessage.geometry_msgs::msg::TransformStamped_<std::allocator<void> >::transform.geometry_msgs::msg::Transform_<std::allocator<void> >::translation.geometry_msgs::msg::Vector3_<std::allocator<void> >::z[m[K’, which is of non-class type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[2.354s]    51 | _frame_id.c_str(), message.transform.translation.x.c_str(), message.transform.translation.y.c_str(), message.transform.translation.z.[01;31m[Kc_str[m[K());
+[2.354s]       |                                                                                                                                      [01;31m[K^~~~~[m[K
+[2.354s] 
+[2.967s] make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o] Error 1
+[2.970s] make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_node.dir/all] Error 2
+[2.971s] make: *** [Makefile:141: all] Error 2
+[2.971s] Invoked command in '/home/salinee/salinee_ws/build/rbot250' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/salinee/salinee_ws/build/rbot250 -- -j1 -l1

@@ -1,0 +1,4 @@
+[console_scripts]
+client = rbot250_srv.client_member_function:main
+service = rbot250_srv.service_member_function:main
+

@@ -1,0 +1,33 @@
+[0.202s] Invoking command in '/home/salinee/salinee_ws/src/rbot250_srv': PYTHONPATH=/home/salinee/salinee_ws/install/rbot250_srv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rbot250_srv build --build-base /home/salinee/salinee_ws/build/rbot250_srv/build install --prefix /home/salinee/salinee_ws/install/rbot250_srv --record /home/salinee/salinee_ws/build/rbot250_srv/install.log --single-version-externally-managed
+[0.386s] running egg_info
+[0.386s] creating ../../build/rbot250_srv/rbot250_srv.egg-info
+[0.387s] writing ../../build/rbot250_srv/rbot250_srv.egg-info/PKG-INFO
+[0.387s] writing dependency_links to ../../build/rbot250_srv/rbot250_srv.egg-info/dependency_links.txt
+[0.387s] writing entry points to ../../build/rbot250_srv/rbot250_srv.egg-info/entry_points.txt
+[0.388s] writing requirements to ../../build/rbot250_srv/rbot250_srv.egg-info/requires.txt
+[0.388s] writing top-level names to ../../build/rbot250_srv/rbot250_srv.egg-info/top_level.txt
+[0.389s] writing manifest file '../../build/rbot250_srv/rbot250_srv.egg-info/SOURCES.txt'
+[0.412s] reading manifest file '../../build/rbot250_srv/rbot250_srv.egg-info/SOURCES.txt'
+[0.413s] writing manifest file '../../build/rbot250_srv/rbot250_srv.egg-info/SOURCES.txt'
+[0.414s] running build
+[0.414s] running build_py
+[0.414s] creating /home/salinee/salinee_ws/build/rbot250_srv/build
+[0.414s] creating /home/salinee/salinee_ws/build/rbot250_srv/build/lib
+[0.414s] creating /home/salinee/salinee_ws/build/rbot250_srv/build/lib/rbot250_srv
+[0.415s] copying rbot250_srv/__init__.py -> /home/salinee/salinee_ws/build/rbot250_srv/build/lib/rbot250_srv
+[0.415s] running install
+[0.415s] running install_lib
+[0.416s] creating /home/salinee/salinee_ws/install/rbot250_srv/lib/python3.8/site-packages/rbot250_srv
+[0.416s] copying /home/salinee/salinee_ws/build/rbot250_srv/build/lib/rbot250_srv/__init__.py -> /home/salinee/salinee_ws/install/rbot250_srv/lib/python3.8/site-packages/rbot250_srv
+[0.417s] byte-compiling /home/salinee/salinee_ws/install/rbot250_srv/lib/python3.8/site-packages/rbot250_srv/__init__.py to __init__.cpython-38.pyc
+[0.418s] running install_data
+[0.419s] creating /home/salinee/salinee_ws/install/rbot250_srv/share/ament_index
+[0.419s] creating /home/salinee/salinee_ws/install/rbot250_srv/share/ament_index/resource_index
+[0.419s] creating /home/salinee/salinee_ws/install/rbot250_srv/share/ament_index/resource_index/packages
+[0.419s] copying resource/rbot250_srv -> /home/salinee/salinee_ws/install/rbot250_srv/share/ament_index/resource_index/packages
+[0.419s] copying package.xml -> /home/salinee/salinee_ws/install/rbot250_srv/share/rbot250_srv
+[0.419s] running install_egg_info
+[0.421s] Copying ../../build/rbot250_srv/rbot250_srv.egg-info to /home/salinee/salinee_ws/install/rbot250_srv/lib/python3.8/site-packages/rbot250_srv-0.0.0-py3.8.egg-info
+[0.421s] running install_scripts
+[0.433s] writing list of installed files to '/home/salinee/salinee_ws/build/rbot250_srv/install.log'
+[0.451s] Invoked command in '/home/salinee/salinee_ws/src/rbot250_srv' returned '0': PYTHONPATH=/home/salinee/salinee_ws/install/rbot250_srv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rbot250_srv build --build-base /home/salinee/salinee_ws/build/rbot250_srv/build install --prefix /home/salinee/salinee_ws/install/rbot250_srv --record /home/salinee/salinee_ws/build/rbot250_srv/install.log --single-version-externally-managed

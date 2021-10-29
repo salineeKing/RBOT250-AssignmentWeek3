@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (rbot250) JobQueued: {'identifier': 'rbot250', 'dependencies': OrderedDict()}
+[0.000164] (rbot250) JobStarted: {'identifier': 'rbot250'}
+[0.005823] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'cmake'}
+[0.006723] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'build'}
+[0.007185] (rbot250) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/salinee/salinee_ws/build/rbot250', '--', '-j1', '-l1'], 'cwd': '/home/salinee/salinee_ws/build/rbot250', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'salinee'), ('SSH_AGENT_PID', '10014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/salinee'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '9779'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04734abbda9c8f3fc1011de56172061b'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/salinee/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'salinee'), ('JOURNAL_STREAM', '8:34971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'salinee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/salinee-VirtualBox:@/tmp/.ICE-unix/10062,unix/salinee-VirtualBox:/tmp/.ICE-unix/10062'), ('INVOCATION_ID', '9a5c12d0071c420893f8c610d9c5d331'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4456d702_5434_4d92_bb74_6df4b8a03048'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.453'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/salinee/salinee_ws/build/rbot250'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04734abbda9c8f3fc1011de56172061b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.081548] (rbot250) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_rbot250\n'}
+[0.094854] (-) TimerEvent: {}
+[0.197823] (-) TimerEvent: {}
+[0.286718] (rbot250) StdoutLine: {'line': b'running egg_info\n'}
+[0.287353] (rbot250) StdoutLine: {'line': b'writing rbot250.egg-info/PKG-INFO\n'}
+[0.288076] (rbot250) StdoutLine: {'line': b'writing dependency_links to rbot250.egg-info/dependency_links.txt\n'}
+[0.288646] (rbot250) StdoutLine: {'line': b'writing top-level names to rbot250.egg-info/top_level.txt\n'}
+[0.304369] (-) TimerEvent: {}
+[0.313314] (rbot250) StdoutLine: {'line': b"reading manifest file 'rbot250.egg-info/SOURCES.txt'\n"}
+[0.313928] (rbot250) StdoutLine: {'line': b"writing manifest file 'rbot250.egg-info/SOURCES.txt'\n"}
+[0.337055] (rbot250) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_rbot250_egg\n'}
+[0.348467] (rbot250) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_node\x1b[0m\n'}
+[0.370257] (rbot250) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[0.412351] (-) TimerEvent: {}
+[0.519746] (-) TimerEvent: {}
+[0.627698] (-) TimerEvent: {}
+[0.734878] (-) TimerEvent: {}
+[0.842519] (-) TimerEvent: {}
+[0.949788] (-) TimerEvent: {}
+[1.056791] (-) TimerEvent: {}
+[1.163880] (-) TimerEvent: {}
+[1.271722] (-) TimerEvent: {}
+[1.379686] (-) TimerEvent: {}
+[1.488174] (-) TimerEvent: {}
+[1.594130] (-) TimerEvent: {}
+[1.700872] (-) TimerEvent: {}
+[1.808451] (-) TimerEvent: {}
+[1.915858] (-) TimerEvent: {}
+[2.023709] (-) TimerEvent: {}
+[2.131664] (-) TimerEvent: {}
+[2.238281] (-) TimerEvent: {}
+[2.269382] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.269587] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:41:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.269680] (rbot250) StderrLine: {'line': b'   41 |  \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.transform.translation.x = atof(1.57);\n'}
+[2.269763] (rbot250) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.272777] (rbot250) StderrLine: {'line': b'      |  \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[2.272937] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:41:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.273037] (rbot250) StderrLine: {'line': b'   41 |  t.transform.translation.x = atof(\x1b[01;31m\x1b[K1.57\x1b[m\x1b[K);\n'}
+[2.273119] (rbot250) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.273199] (rbot250) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.273278] (rbot250) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[2.273433] (rbot250) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[2.273523] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[2.273612] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6493\x1b[m\x1b[K,\n'}
+[2.273691] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.273793] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.273874] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.273951] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.274028] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[2.274106] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.274186] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:101:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble atof(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.274264] (rbot250) StderrLine: {'line': b'  101 | extern double atof (\x1b[01;36m\x1b[Kconst char *__nptr\x1b[m\x1b[K)\n'}
+[2.274341] (rbot250) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.274459] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:42:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.274545] (rbot250) StderrLine: {'line': b'   42 |     t.transform.translation.y = atof(\x1b[01;31m\x1b[K3.142\x1b[m\x1b[K);\n'}
+[2.274623] (rbot250) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.274714] (rbot250) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.274804] (rbot250) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[2.274907] (rbot250) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[2.274990] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[2.275068] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6493\x1b[m\x1b[K,\n'}
+[2.275146] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.275222] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.275299] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.275376] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.275453] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[2.275530] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.275610] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:101:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble atof(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.275716] (rbot250) StderrLine: {'line': b'  101 | extern double atof (\x1b[01;36m\x1b[Kconst char *__nptr\x1b[m\x1b[K)\n'}
+[2.275803] (rbot250) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.276937] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:43:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KM_Pi\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KM_PI\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.277047] (rbot250) StderrLine: {'line': b'   43 |     t.transform.translation.z = atof(-2 * \x1b[01;31m\x1b[KM_Pi\x1b[m\x1b[K/3);\n'}
+[2.277132] (rbot250) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.277214] (rbot250) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[KM_PI\x1b[m\x1b[K\n'}
+[2.277368] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:46:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.277459] (rbot250) StderrLine: {'line': b'   46 |       atof(\x1b[01;31m\x1b[K0.123\x1b[m\x1b[K),\n'}
+[2.277540] (rbot250) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.277618] (rbot250) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.277720] (rbot250) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[2.277825] (rbot250) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[2.277909] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[2.277997] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6493\x1b[m\x1b[K,\n'}
+[2.278076] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.278153] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.278230] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.278306] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.278382] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[2.278459] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.278537] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:101:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble atof(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.278630] (rbot250) StderrLine: {'line': b'  101 | extern double atof (\x1b[01;36m\x1b[Kconst char *__nptr\x1b[m\x1b[K)\n'}
+[2.278717] (rbot250) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.278827] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:47:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.278912] (rbot250) StderrLine: {'line': b'   47 |       atof(\x1b[01;31m\x1b[K1.57\x1b[m\x1b[K),\n'}
+[2.278990] (rbot250) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.279065] (rbot250) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.279141] (rbot250) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[2.279242] (rbot250) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[2.279324] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[2.279402] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6493\x1b[m\x1b[K,\n'}
+[2.279486] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.279564] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.279666] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.279745] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.279822] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[2.279899] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.279979] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:101:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble atof(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.280057] (rbot250) StderrLine: {'line': b'  101 | extern double atof (\x1b[01;36m\x1b[Kconst char *__nptr\x1b[m\x1b[K)\n'}
+[2.280133] (rbot250) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.280260] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:48:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.280348] (rbot250) StderrLine: {'line': b'   48 |       atof(\x1b[01;31m\x1b[K5*M_PI/6\x1b[m\x1b[K),\n'}
+[2.280432] (rbot250) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~^~\x1b[m\x1b[K\n'}
+[2.280965] (rbot250) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.281039] (rbot250) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[2.281089] (rbot250) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[2.281165] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[2.281252] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6493\x1b[m\x1b[K,\n'}
+[2.281334] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.281496] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.281568] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.281622] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.281668] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[2.281714] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.281759] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:101:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble atof(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.281806] (rbot250) StderrLine: {'line': b'  101 | extern double atof (\x1b[01;36m\x1b[Kconst char *__nptr\x1b[m\x1b[K)\n'}
+[2.291735] (rbot250) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.291828] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:49:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.291889] (rbot250) StderrLine: {'line': b'   49 |    atof(\x1b[01;31m\x1b[K1.0\x1b[m\x1b[K));\n'}
+[2.291943] (rbot250) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.291994] (rbot250) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.292040] (rbot250) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[2.292086] (rbot250) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[2.292131] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[2.292178] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6493\x1b[m\x1b[K,\n'}
+[2.292224] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.292270] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.292338] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.292390] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.292436] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[2.292481] (rbot250) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/salinee/salinee_ws/src/rbot250/src/cpp_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.292526] (rbot250) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:101:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble atof(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.292571] (rbot250) StderrLine: {'line': b'  101 | extern double atof (\x1b[01;36m\x1b[Kconst char *__nptr\x1b[m\x1b[K)\n'}
+[2.292616] (rbot250) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.356294] (-) TimerEvent: {}
+[2.463868] (-) TimerEvent: {}
+[2.571747] (-) TimerEvent: {}
+[2.679347] (-) TimerEvent: {}
+[2.786291] (-) TimerEvent: {}
+[2.890636] (rbot250) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o] Error 1\n'}
+[2.890775] (-) TimerEvent: {}
+[2.894033] (rbot250) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[2.894437] (rbot250) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.894523] (rbot250) CommandEnded: {'returncode': 2}
+[2.935963] (rbot250) JobEnded: {'identifier': 'rbot250', 'rc': 2}
+[2.938792] (-) EventReactorShutdown: {}
